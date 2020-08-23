@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css" />
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>Pig Game</title>
+  </head>
+
+  <body>
+    <button id="gameRole" class="btn btn-outline-secondary">Game role</button>
+    <div class="wrapper clearfix">
+      <div class="player-0-panel active">
+        <div class="player-name" id="name-0">Player 1</div>
+        <div class="player-score" id="score-0">0</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-0">0</div>
+        </div>
+      </div>
+
+      <div class="player-1-panel">
+        <div class="player-name" id="name-1">Player 2</div>
+        <div class="player-score" id="score-1">0</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-1">0</div>
+        </div>
+      </div>
+
+      <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+      <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+      <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+      <input class="input" type="text" placeholder="final-score?" />
+
+      <img src="dice-1.png" alt="Dice" class="dice" />
+      <img src="dice-1.png" alt="Dice" class="dice2" />
+      <h3 class="myName">Zarina 🖤</h3>
+    </div>
+
+    <!--<script src="app.js"></script>-->
+    <script src="challenges.js"></script>
+  </body>
+</html>
